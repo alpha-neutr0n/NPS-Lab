@@ -34,4 +34,5 @@ int main()
 	buffer[n+1]='\0';
 	printf("%s",buffer);
 	close(cli_socket);
+
 }

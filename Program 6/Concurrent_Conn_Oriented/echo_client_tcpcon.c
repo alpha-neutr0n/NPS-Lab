@@ -42,6 +42,5 @@ int main(int argc,char *argv[])
 		printf("Error in connect\n");			
 		
 	str_cli(stdin, create_socket);				
-
 	return close(create_socket);
 }
